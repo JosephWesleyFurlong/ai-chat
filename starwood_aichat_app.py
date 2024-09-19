@@ -28,7 +28,7 @@ def extract_text_from_word(file):
     return '\n'.join(full_text)
 
 # GitHub URL to your Word document (raw link to the file)
-docx_url = "https://raw.githubusercontent.com/Starwood-Animal-Transport/ai_chat/main/Starwood%20Knowledge%20Corpus.docx"
+docx_url = "https://github.com/JosephWesleyFurlong/ai-chat/raw/refs/heads/main/Starwood%20Knowledge%20Corpus.docx"
 
 # Download the Word document
 word_file = download_word_doc(docx_url)
